@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated data directories
+csv/
+csv_cleaned/
+scf_full/
+scf_relationships/
+framework_relationships/
+json_output/
+
+# Environment variables
+.env
+
+# PyInstaller build directories
+build/
+dist/
+
+# Windows-specific metadata files
+*.Zone.Identifier

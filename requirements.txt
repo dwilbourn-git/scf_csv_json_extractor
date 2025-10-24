@@ -1,0 +1,8 @@
+requests
+tqdm
+pyinstaller
+packaging
+altgraph
+setuptools
+pandas
+openpyxl

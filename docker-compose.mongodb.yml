@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: scf-mongodb
+    restart: unless-stopped
+
+    # Security: Run as non-root user
+    user: mongodb
+
+    environment:
+      # IMPORTANT: Change these credentials!
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-ChangeThisPassword123!}
+      MONGO_INITDB_DATABASE: scf
+
+    ports:
+      # Only expose locally for security
+      # Change to "27017:27017" if you need remote access (NOT recommended)
+      - "127.0.0.1:27017:27017"
+
+    volumes:
+      # Persistent data storage
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+
+      # Optional: Custom MongoDB configuration
+      # - ./mongodb.conf:/etc/mongod.conf:ro
+
+      # Optional: Initialize with SCF data
+      # - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+
+    # Resource limits (adjust based on your VPS specs)
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+
+    # Health check
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+    # Logging configuration
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Optional: Mongo Express (Web-based MongoDB admin interface)
+  mongo-express:
+    image: mongo-express:1.0-20
+    container_name: scf-mongo-express
+    restart: unless-stopped
+
+    depends_on:
+      - mongodb
+
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGO_ROOT_PASSWORD:-ChangeThisPassword123!}
+      ME_CONFIG_MONGODB_URL: mongodb://admin:${MONGO_ROOT_PASSWORD:-ChangeThisPassword123!}@mongodb:27017/
+      ME_CONFIG_BASICAUTH_USERNAME: ${MONGOEXPRESS_USERNAME:-admin}
+      ME_CONFIG_BASICAUTH_PASSWORD: ${MONGOEXPRESS_PASSWORD:-ChangeThisPassword123!}
+
+    ports:
+      # Access at http://your-vps-ip:8081
+      # IMPORTANT: Use a reverse proxy (nginx) with SSL in production
+      - "127.0.0.1:8081:8081"
+
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+volumes:
+  mongodb_data:
+    driver: local
+  mongodb_config:
+    driver: local
+
+networks:
+  default:
+    name: scf-network

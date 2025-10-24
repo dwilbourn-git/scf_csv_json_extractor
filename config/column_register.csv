@@ -1,0 +1,1007 @@
+raw_header,label
+SCF Domain,core
+SCF Control,core
+SCF #,core
+"Secure Controls Framework (SCF)
+Control Description",core
+Evidence Request List (ERL) #,scf_relationship
+"Possible Solutions & Considerations
+Micro-Small Business (<10 staff)
+BLS Firm Size Classes 1-2",core
+"Possible Solutions & Considerations
+Small Business (10-49 staff)
+BLS Firm Size Classes 3-4",core
+"Possible Solutions & Considerations
+Medium Business (50-249 staff)
+BLS Firm Size Classes 5-6",core
+"Possible Solutions & Considerations
+Large Business (250-999 staff)
+BLS Firm Size Classes 7-8",core
+"Possible Solutions & Considerations
+Enterprise (> 1,000 staff)
+BLS Firm Size Class 9",core
+SCF Control Question,core
+Relative Control Weighting,core
+"PPTDF
+Applicability
+
+PEOPLE",core
+"PPTDF
+Applicability
+
+PROCESS",core
+"PPTDF
+Applicability
+
+TECHNOLOGY",core
+"PPTDF
+Applicability
+
+DATA",core
+"PPTDF
+Applicability
+
+FACILITY",core
+"NIST CSF
+Function Grouping",core
+"SCRM Focus
+
+TIER 1
+STRATEGIC",core
+"SCRM Focus
+
+TIER 2
+OPERATIONAL",core
+"SCRM Focus
+
+TIER 3
+TACTICAL",core
+"C|P-CMM 0
+Not Performed",core
+"C|P-CMM 1
+Performed Informally",core
+"C|P-CMM 2
+Planned & Tracked+AI:AL",core
+"C|P-CMM 3
+Well Defined",core
+"C|P-CMM 4
+Quantitatively Controlled",core
+"C|P-CMM 5
+Continuously Improving",core
+"AICPA
+TSC 2017
+(with 2022 revised POF)",framework_relationship
+"BSI 
+Standard 200-1",framework_relationship
+"CIS
+CSC
+v8.1",framework_relationship
+"CIS
+CSC v8.1
+IG1",framework_relationship
+"CIS
+CSC v8.1
+IG2",framework_relationship
+"CIS
+CSC v8.1
+IG3",framework_relationship
+"COBIT
+2019",framework_relationship
+"COSO
+v2017",framework_relationship
+"CSA
+CCM
+v4",framework_relationship
+"CSA
+IoT SCF
+v2",framework_relationship
+"ENISA
+v2.0",framework_relationship
+GAPP,framework_relationship
+"IEC TR 60601-4-5
+v2021",framework_relationship
+IEC 62443-4-2,framework_relationship
+"ISO/SAE
+21434
+v2021",framework_relationship
+"ISO
+22301
+v2019",framework_relationship
+"ISO
+27001
+v2013",framework_relationship
+"ISO
+27001
+v2022",framework_relationship
+"ISO
+27002
+v2013",framework_relationship
+"ISO
+27002
+v2022",framework_relationship
+"ISO 
+27017
+v2015",framework_relationship
+"ISO 
+27018
+v2014",framework_relationship
+"ISO
+27701 
+v2019",framework_relationship
+"ISO
+29100
+v2011",framework_relationship
+"ISO
+31000
+v2009",framework_relationship
+"ISO
+31010
+v2009",framework_relationship
+"ISO
+42001
+v2023",framework_relationship
+"MITRE
+ATT&CK
+10",framework_relationship
+"MPA 
+Content Security Program
+v5.1",framework_relationship
+"NAIC
+Insurance Data Security Model Law (MDL-668)",framework_relationship
+"NIST
+AI RMF
+AI 100-1
+v1.0",framework_relationship
+"NIST
+AI 600-1",framework_relationship
+"NIST Privacy Framework
+v1.0",framework_relationship
+"NIST
+800-37 
+rev 2",framework_relationship
+"NIST
+800-39",framework_relationship
+"NIST
+800-53
+rev4",framework_relationship
+"NIST
+800-53 rev4
+(low)",framework_relationship
+"NIST
+800-53 rev4
+(moderate)",framework_relationship
+"NIST
+800-53 rev4
+(high)",framework_relationship
+"NIST
+800-53
+rev5",framework_relationship
+"NIST
+800-53B
+rev5
+(privacy)",framework_relationship
+"NIST
+800-53B
+rev5
+(low)",framework_relationship
+"NIST
+800-53B
+rev5
+(moderate)",framework_relationship
+"NIST
+800-53B
+rev5
+(high)",framework_relationship
+"NIST
+800-53
+rev5
+(NOC)",framework_relationship
+"NIST
+800-63B
+(partial mapping)",framework_relationship
+"NIST
+800-82 rev3
+LOW 
+OT Overlay",framework_relationship
+"NIST
+800-82 rev3
+MODERATE
+OT Overlay",framework_relationship
+"NIST
+800-82 rev3
+HIGH 
+OT Overlay",framework_relationship
+"NIST
+800-160",framework_relationship
+"NIST
+800-161
+rev 1",framework_relationship
+"NIST
+800-161
+rev 1
+C-SCRM Baseline",framework_relationship
+"NIST
+800-161
+rev 1
+Flow Down",framework_relationship
+"NIST
+800-161
+rev 1
+Level 1",framework_relationship
+"NIST
+800-161
+rev 1
+Level 2",framework_relationship
+"NIST
+800-161
+rev 1
+Level 3",framework_relationship
+"NIST
+800-171
+rev2",framework_relationship
+"NIST
+800-171A",framework_relationship
+"NIST
+800-171
+rev3",framework_relationship
+"NIST
+800-171A
+rev3",framework_relationship
+"NIST
+800-172",framework_relationship
+"NIST
+800-207",framework_relationship
+"NIST
+800-218
+v1.1
+SSDF",framework_relationship
+"NIST
+CSF
+v1.1",framework_relationship
+"NIST
+CSF
+v2.0",framework_relationship
+"OWASP
+Top 10
+v2021",framework_relationship
+"PCIDSS
+v3.2",framework_relationship
+"PCI DSS
+v4.0.1",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ A",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ A-EP",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ B",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ B-IP",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ C",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ C-VT",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ D Merchant",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ D Service Provider",framework_relationship
+"PCI DSS
+v4.0.1
+SAQ P2PE",framework_relationship
+Shared Assessments SIG 2024,framework_relationship
+SPARTA,framework_relationship
+"SWIFT
+CSF
+v2023",framework_relationship
+"TISAX
+ISA v6",framework_relationship
+"UL
+2900-1",framework_relationship
+"UN
+R155",framework_relationship
+"UN
+ECE WP.29",framework_relationship
+"US
+C2M2
+v2.1",framework_relationship
+"US
+CERT RMM
+v1.2",framework_relationship
+"US
+CISA
+CPG
+v2022",framework_relationship
+"US
+CJIS Security Policy 5.9.3",framework_relationship
+"US
+CMMC 2.0
+Level 1",framework_relationship
+"US
+CMMC 2.0
+Level 2",framework_relationship
+"US
+CMMC 2.0
+Level 3",framework_relationship
+"US
+CMS
+MARS-E v2.0",framework_relationship
+"US
+COPPA",framework_relationship
+"US
+Data Privacy Framework (DPF)",framework_relationship
+"US
+DoD
+Zero Trust Reference Architecture v2.0",framework_relationship
+"US
+DFARS
+Cybersecurity
+252.204-70xx",framework_relationship
+"US
+DHS CISA
+TIC 3.0",framework_relationship
+"US
+CISA
+CPG
+v2022.1",framework_relationship
+"US
+DHS CISA
+SSDAF",framework_relationship
+"US
+DHS ZTCF",framework_relationship
+"US
+FACTA",framework_relationship
+"US
+FAR
+52.204-21",framework_relationship
+"US
+FAR
+52.204-27",framework_relationship
+"US
+FAR
+Section 889",framework_relationship
+"US
+FCA CRM",framework_relationship
+"US
+FDA
+21 CFR Part 11",framework_relationship
+"US
+FedRAMP
+R4",framework_relationship
+"US
+FedRAMP
+R4 (low)",framework_relationship
+"US
+FedRAMP
+R4 (moderate)",framework_relationship
+"US
+FedRAMP
+R4 (high)",framework_relationship
+"US
+FedRAMP
+R4 (LI-SaaS)",framework_relationship
+"US
+FedRAMP
+R5",framework_relationship
+"US
+FedRAMP
+R5
+(low)",framework_relationship
+"US
+FedRAMP
+R5
+(moderate)",framework_relationship
+"US
+FedRAMP
+R5
+(high)",framework_relationship
+"US
+FedRAMP
+R5
+(LI-SaaS)",framework_relationship
+"US
+FERPA",framework_relationship
+"US
+FFIEC",framework_relationship
+"US
+FINRA",framework_relationship
+"US
+FTC Act",framework_relationship
+"US
+GLBA
+CFR 314
+(Dec 2023)",framework_relationship
+"US
+HIPAA Administrative Simplification (2013)",framework_relationship
+"US
+HIPAA
+Security Rule / NIST SP 800-66 R2",framework_relationship
+"US
+HIPAA 
+HICP
+Small Practice",framework_relationship
+"US
+HIPAA 
+HICP
+Medium Practice",framework_relationship
+"US
+HIPAA 
+HICP
+Large Practice",framework_relationship
+"US
+IRS 1075",framework_relationship
+"US
+ITAR Part 120
+(limited)",framework_relationship
+"US
+NERC
+CIP 2024",framework_relationship
+"US
+NISPOM",framework_relationship
+"US
+NNPI
+(unclass)",framework_relationship
+"US
+NSTC
+NSPM-33",framework_relationship
+"US
+SEC
+Cybersecurity Rule",framework_relationship
+"US
+SOX",framework_relationship
+"US
+SSA 
+EIESR
+v8.0",framework_relationship
+"US
+StateRAMP
+Low
+Category 1",framework_relationship
+"US
+StateRAMP
+Low+
+Category 2",framework_relationship
+"US
+StateRAMP
+Moderate
+Category 3",framework_relationship
+"US
+TSA / DHS
+1580/82-2022-01",framework_relationship
+"US - AK
+PIPA",framework_relationship
+"US - CA
+SB327",framework_relationship
+"US-CA
+CCPA / CPRA
+(Nov 2022)",framework_relationship
+"US - CA
+SB1386",framework_relationship
+"US - CO
+Colorado Privacy Act",framework_relationship
+"US - IL
+BIPA",framework_relationship
+"US - IL
+IPA",framework_relationship
+"US - IL
+PIPA",framework_relationship
+"US-MA
+201 CMR 17.00",framework_relationship
+"US - NV
+SB220",framework_relationship
+"US - NY
+DFS
+23 NYCRR500
+2023 Amd 2",framework_relationship
+"US - NY
+SHIELD Act
+S5575B",framework_relationship
+"US - OR
+646A",framework_relationship
+"US - OR
+CPA",framework_relationship
+"US - TN
+Tennessee Information Protection Act ",framework_relationship
+"US - TX
+BC521",framework_relationship
+"US-TX
+Cybersecurity Act",framework_relationship
+US-TX DIR Control Standards 2.0,framework_relationship
+"US-TX
+TX-RAMP
+Level 1",framework_relationship
+"US-TX
+TX-RAMP
+Level 2",framework_relationship
+"US-TX
+SB820",framework_relationship
+"US-VA
+CDPA
+2023",framework_relationship
+"US-VT
+Act 171 of 2018",framework_relationship
+"EMEA
+EU
+AI Act",framework_relationship
+"EMEA
+EU
+Cyber Resiliency Act",framework_relationship
+"EMEA
+EU
+Cyber Resiliency Act Annexes",framework_relationship
+"EMEA
+EU
+EBA
+GL/2019/04",framework_relationship
+"EMEA
+EU
+DORA",framework_relationship
+"EMEA
+EU
+GDPR",framework_relationship
+"EMEA
+EU
+NIS2",framework_relationship
+"EMEA
+EU
+NIS2 Annex",framework_relationship
+"EMEA
+EU
+PSD2",framework_relationship
+"EMEA
+EU
+EU-US Data Privacy Framework",framework_relationship
+"EMEA
+Austria",framework_relationship
+"EMEA
+Belgium",framework_relationship
+"EMEA
+Germany",framework_relationship
+"EMEA
+Germany
+Banking Supervisory Requirements for IT (BAIT)",framework_relationship
+"EMEA
+Germany
+C5-2020",framework_relationship
+"EMEA
+Greece",framework_relationship
+"EMEA
+Hungary",framework_relationship
+"EMEA
+Ireland",framework_relationship
+"EMEA
+Israel
+CDMO
+v1.0",framework_relationship
+"EMEA
+Israel",framework_relationship
+"EMEA
+Italy",framework_relationship
+"EMEA
+Kenya
+DPA 2019",framework_relationship
+"EMEA
+Netherlands",framework_relationship
+"EMEA
+Nigeria
+DPR 2019",framework_relationship
+"EMEA
+Norway",framework_relationship
+"EMEA
+Poland",framework_relationship
+"EMEA
+Qatar
+PDPPL",framework_relationship
+"EMEA
+Russia",framework_relationship
+"EMEA
+Saudi Arabia
+CSCC – 1: 2019",framework_relationship
+"EMEA
+Saudi Arabia
+IoT CGIoT-1:2024",framework_relationship
+"EMEA
+Saudi Arabia
+ECC-12018",framework_relationship
+"EMEA
+Saudi Arabia
+OTCC-1 2022",framework_relationship
+"EMEA
+Saudi Arabia
+Personal Data Protection Law (PDPL)",framework_relationship
+"EMEA
+Saudi Arabia
+SACS-002",framework_relationship
+"EMEA
+Saudi Arabia
+SAMA CSFv1.0",framework_relationship
+"EMEA
+Serbia
+87/2018",framework_relationship
+"EMEA
+South Africa",framework_relationship
+"EMEA
+Spain
+BOE-A-2022-7191",framework_relationship
+"EMEA
+Spain
+1720/2007",framework_relationship
+"EMEA
+Spain
+311/2022",framework_relationship
+"EMEA
+Spain
+CCN-STIC 825",framework_relationship
+"EMEA
+Sweden",framework_relationship
+"EMEA
+Switzerland",framework_relationship
+"EMEA
+Turkey",framework_relationship
+"EMEA
+UAE
+NIAF",framework_relationship
+"EMEA
+UK
+CAF v3.1",framework_relationship
+"EMEA
+UK
+CAP 1850",framework_relationship
+"EMEA
+UK
+Cyber Essentials",framework_relationship
+"EMEA
+UK
+DEFSTAN 05-138",framework_relationship
+"EMEA
+UK
+DPA",framework_relationship
+"EMEA
+UK
+GDPR",framework_relationship
+"APAC
+Australia
+Essential 8",framework_relationship
+"APAC
+Australia
+Privacy Act",framework_relationship
+"APAC
+Australian Privacy Principles",framework_relationship
+"APAC
+Australia
+ISM June 2024",framework_relationship
+"APAC
+Australia
+IoT Code of Practice",framework_relationship
+"APAC
+Australia
+Prudential Standard CPS230",framework_relationship
+"APAC
+Australia
+Prudential Standard CPS234",framework_relationship
+"APAC
+China
+Cybersecurity
+Law",framework_relationship
+"APAC
+China
+Data Security Law (DSL)",framework_relationship
+"APAC
+China
+DNSIP",framework_relationship
+"APAC
+China
+Privacy Law",framework_relationship
+"APAC
+Hong Kong",framework_relationship
+"APAC
+India
+DPDPA 2023",framework_relationship
+"APAC
+India
+ITR",framework_relationship
+"APAC
+Japan
+APPI",framework_relationship
+"APAC
+Japan
+ISMAP",framework_relationship
+"APAC
+Malaysia",framework_relationship
+"APAC
+New Zealand HISF 2022",framework_relationship
+"APAC
+New Zealand HISF Suppliers 2023",framework_relationship
+"APAC
+New Zealand
+NZISM 3.6",framework_relationship
+"APAC
+New Zealand Privacy Act of 2020",framework_relationship
+"APAC
+Philippines",framework_relationship
+"APAC
+Singapore",framework_relationship
+"APAC
+Singapore 
+Cyber Hygiene Practice",framework_relationship
+"APAC
+Singapore MAS
+TRM 2021",framework_relationship
+"APAC
+South Korea",framework_relationship
+"APAC
+Taiwan",framework_relationship
+"Americas
+Argentina",framework_relationship
+"Americas
+Argentina
+Reg 132-2018",framework_relationship
+"Americas
+Bahamas",framework_relationship
+"Americas
+Bermuda
+BMACCC",framework_relationship
+"Americas
+Brazil
+LGPD",framework_relationship
+"Americas
+Canada
+CSAG",framework_relationship
+"Americas
+Canada
+OSFI B-13",framework_relationship
+"Americas
+Canada
+ITSP-10-171",framework_relationship
+"Americas
+Canada
+PIPEDA",framework_relationship
+"Americas
+Chile",framework_relationship
+"Americas
+Colombia",framework_relationship
+"Americas
+Costa Rica",framework_relationship
+"Americas
+Mexico",framework_relationship
+"Americas
+Peru",framework_relationship
+"Americas
+Uruguay",framework_relationship
+"SCF-B
+
+Business Mergers & Acquisitions",core
+"SCF-I
+
+Cyber Liability Insurance (Duty of Care)",core
+"SCF-E
+
+Embedded
+Technology",core
+"SCF-M
+
+MSP/MSSP
+Secure Practices Baseline",core
+"SCF-R
+
+Ransomware Protection",core
+"SCF-Z
+
+Zero Trust Architecture (ZTA)",core
+Risk Threat Summary,scf_relationship
+"Risk
+R-AC-1",remove
+"Risk
+R-AC-2",remove
+"Risk
+R-AC-3",remove
+"Risk
+R-AC-4",remove
+"Risk
+R-AM-1",remove
+"Risk
+R-AM-2",remove
+"Risk
+R-AM-3",remove
+"Risk
+R-BC-1",remove
+"Risk
+R-BC-2",remove
+"Risk
+R-BC-3",remove
+"Risk
+R-BC-4",remove
+"Risk
+R-BC-5",remove
+"Risk
+R-EX-1",remove
+"Risk
+R-EX-2",remove
+"Risk
+R-EX-3",remove
+"Risk
+R-EX-4",remove
+"Risk
+R-EX-5",remove
+"Risk
+R-EX-6",remove
+"Risk
+R-EX-7",remove
+"Risk
+R-GV-1",remove
+"Risk
+R-GV-2",remove
+"Risk
+R-GV-3",remove
+"Risk
+R-GV-4",remove
+"Risk
+R-GV-5",remove
+"Risk
+R-GV-6",remove
+"Risk
+R-GV-7",remove
+"Risk
+R-GV-8",remove
+"Risk
+R-IR-1",remove
+"Risk
+R-IR-2",remove
+"Risk
+R-IR-3",remove
+"Risk
+R-IR-4",remove
+"Risk
+R-SA-1",remove
+"Risk
+R-SA-2",remove
+"Risk
+R-SC-1",remove
+"Risk
+R-SC-2",remove
+"Risk
+R-SC-3",remove
+"Risk
+R-SC-4",remove
+"Risk
+R-SC-5",remove
+"Risk
+R-SC-6",remove
+Control Threat Summary,scf_relationship
+"Threat
+NT-1",remove
+"Threat
+NT-2",remove
+"Threat
+NT-3",remove
+"Threat
+NT-4",remove
+"Threat
+NT-5",remove
+"Threat
+NT-6",remove
+"Threat
+NT-7",remove
+"Threat
+NT-8",remove
+"Threat
+NT-9",remove
+"Threat
+NT-10",remove
+"Threat
+NT-11",remove
+"Threat
+NT-12",remove
+"Threat
+NT-13",remove
+"Threat
+NT-14",remove
+"Threat
+MT-1",remove
+"Threat
+MT-2",remove
+"Threat
+MT-3",remove
+"Threat
+MT-4",remove
+"Threat
+MT-5",remove
+"Threat
+MT-6",remove
+"Threat
+MT-7",remove
+"Threat
+MT-8",remove
+"Threat
+MT-9",remove
+"Threat
+MT-10",remove
+"Threat
+MT-11",remove
+"Threat
+MT-12",remove
+"Threat
+MT-13",remove
+"Threat
+MT-14",remove
+"Threat
+MT-15",remove
+"Threat
+MT-16",remove
+"Threat
+MT-17",remove
+"Threat
+MT-18",remove
+"Threat
+MT-19",remove
+"Threat
+MT-20",remove
+"Threat
+MT-21",remove
+"Threat
+MT-22",remove
+"Threat
+MT-23",remove
+"Errata
+2025.2",core
+raw_header,label
+"Minimum Security Requirements 
+MCR + DSR",remove
+"Identify
+Minimum Compliance Requirements (MCR)",remove
+"Identify
+Discretionary Security Requirements (DSR)",remove
+raw_header,label
+"US
+CMMC 2.0
+Level 1 AOs",framework_relationship
+"Threat
+MT-24",remove
+"Threat
+MT-25",remove
+"Threat
+MT-26",remove
+"Threat
+MT-27",remove
+"US
+DoD
+Zero Trust Execution Roadmap",framework_relationship
+"SCF CORE
+ESP Level 1
+Foundational",core
+"SCF CORE
+ESP Level 2
+Critical Infrastructure",core
+"SCF CORE
+ESP Level 3
+Advanced Threats",core
+"US
+EO 14028",framework_relationship
+"SCF CORE
+AI Model
+Deployment",core
+"SCF CORE
+AI-Enabled Operations",core
+"SCF CORE
+Fundamentals",core
+"SCF CORE
+Mergers, Acquisitions & Divestitures (MA&D)",core
+"SCF CORE
+Community Derived",core
+"Conformity Validation
+Cadence",core
+"US-TX
+SB 2610",framework_relationship
+"C|P-CMM 2
+Planned & Tracked",framework_relationship
+"EMEA
+UK
+CAF v4.0",framework_relationship
+"AICPA
+TSC 2017:2022 (used for SOC 2)",framework_relationship
